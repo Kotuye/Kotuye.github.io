@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/selectors.css">
+</head>
+
+//* Regisztációs űrlap.*//
+<body>
+    <h1>Login</h1>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Személyes adatok</legend>
+                <div>
+                    <label for="name">Név:*</label>
+                    <input id="name" name="Name" type="text" placeholder="Név" required>
+                </div>
+                <div>
+                    <label for="email">Email cím:*</label>
+                    <input id="email" name="email" type="email" placeholder="Email cím" required>
+                </div>
+                <div>
+                    <label for="address">Cím:*</label>
+                    <input id="address" name="text" type="adress" placeholder="Cím" required>
+                </div>
+                <div>
+                    <label for="comment">Megjegyzés:*</label>
+                    <textarea id="comment" name="comment" rows="5" placeholder="Egyéb üzenet"></textarea>
+                </div>
+            </fieldset>
+
+            <div>
+                <button class="submit-btn">Regisztálok</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
