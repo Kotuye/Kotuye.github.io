@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "name": "Biró József",
+      "email": "birojozsef@aapu.hu",
+      "id": 1
+    },
+    {
+      "name": "hhh",
+      "email": "buskatalin66@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Biró Józse",
+      "email": "birojozsef650708@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "vbnghn",
+      "email": "drgds@sdfvs",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "user Id": 1
+    }
+  ]
+}
